@@ -1,0 +1,38 @@
+.brand {
+    font-size: 2rem;
+    font-family: ;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 3px;
+}
+#menus {
+flex-grow: 1;
+}
+#recipes {
+flex-grow: 1;
+}
+#catering {
+flex-grow: 1;
+}
+#aboutus {
+flex-grow: 1;
+}
+.no-bullets {
+    list-style-type: none;  
+    display: flex;
+    gap: 1ch;
+    padding: 15px;
+    justify-content: column;
+    align-items: flex-start;
+}
+article {
+    margin-left: 12rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 1;
+    padding: 15px;
+
+}
